@@ -1,7 +1,7 @@
-pipeline {
-   
-
-    stages {
+pipeline 
+{
+   stages 
+   {
         stage('dev') {
             steps {
                 echo 'application is dev'
